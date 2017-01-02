@@ -22,10 +22,10 @@ This analysis will identify what factors __variables available in the American C
 5. Motorcycle 
 
 The following other commute classification I will not directly study, although they may be involved as predictive factors for other commuters in the household: 
-* Taxi 
-* Not in the labor force (including persons under 16 years; unemployed;.employed, with a job but not at work; Armed.Forces, with a job but not at work)
-* Not applicable -- worked from home
-* Other commute method
+ * Taxi 
+ * Not in the labor force (including persons under 16 years; unemployed;.employed, with a job but not at work; Armed.Forces, with a job but not at work)
+ * Not applicable -- worked from home
+ * Other commute method
 
 
   
@@ -71,11 +71,12 @@ The data itself is composed of two major datasets: person data (> 3.3 million ro
  This data is pretty well organized. It will not require as much cleanup as some sources. The challenge will be in the volume of data and finding the greatest meaning in the very wide range of variables. The data set presents an interesting opportunity in experimenting with a variety of combinations of variable relationships and visualizations. 
 
 To pull a sample for running all my preliminary analysis: 
- * I randomly selected 184,500 thousand households out of the household data. 
- * I then pulled all person data matching those selected households (collecting 391,310 person rows). 
- * I will need to incorporate weighting information described at http://www2.census.gov/programs-surveys/acs/tech_docs/pums/ACS2013_PUMS_README.pdf (section VI., Weights in the PUMS, page 5)
- * For speed of initial analysis, I will work with this sample data set of around 10% the total to do my initial hypothesis, analysis, and visualization. 
- * After these findings I will apply the most meaningful experiments to the full dataset. 
+
+ 1. I randomly selected 184,500 thousand households out of the household data. 
+ 2. I then pulled all person data matching those selected households (collecting 391,310 person rows). 
+ 3. I will need to incorporate weighting information described at http://www2.census.gov/programs-surveys/acs/tech_docs/pums/ACS2013_PUMS_README.pdf (section VI., Weights in the PUMS, page 5)
+ 4. For speed of initial analysis, I will work with this sample data set of around 10% the total to do my initial hypothesis, analysis, and visualization. 
+ 5. After these findings I will apply the most meaningful experiments to the full dataset. 
 
 ## V. Deliverables
 
